@@ -1,0 +1,25 @@
+
+
+.btn-group{
+    display: flex;
+}
+
+.btn{
+    width: 175px;
+    height: 50px;
+    border: none;
+    transition: .8s;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: #454545;
+    color: white;
+
+}
+
+.btn-long{
+
+    width: 350px;
+}
+
