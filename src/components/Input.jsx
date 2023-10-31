@@ -1,9 +1,11 @@
-import React from 'react'
-import "./Input.css"
-const Input = () => {
+import React from "react";
+import "./Input.css";
+const Input = ({ data }) => {
   return (
-    <div className='input-text'>Input</div>
-  )
-}
+    <div className="input-text" value={data}>
+      {data}
+    </div>
+  );
+};
 
-export default Input
+export default Input;

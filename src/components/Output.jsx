@@ -1,8 +1,8 @@
 import React from 'react'
 import "./Output.css"
-const Output = () => {
+const Output = ({data}) => {
   return (
-   <div className="output-text">0</div>
+   <div className="output-text">{data}</div>
   )
 }
 

@@ -1,14 +1,14 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   background-color: whitesmoke;
 }
 
-.main-container{
+.main-container {
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -16,6 +16,6 @@ body{
   justify-content: center;
 }
 
-.calculatorFrame{
+.calculatorFrame {
   box-shadow: 20px 20px 10px gray;
 }
